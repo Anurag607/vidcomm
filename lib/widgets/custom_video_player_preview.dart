@@ -6,9 +6,9 @@ import 'custom_video_player.dart';
 
 class CustomVideoPlayerPreview extends StatefulWidget {
   const CustomVideoPlayerPreview({
-    Key? key,
+    super.key,
     required this.post,
-  }) : super(key: key);
+  });
 
   final Post post;
 

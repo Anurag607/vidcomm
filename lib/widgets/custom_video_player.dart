@@ -1,3 +1,5 @@
+// ignore_for_file: unused_element
+
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 import 'package:visibility_detector/visibility_detector.dart';
@@ -7,9 +9,9 @@ import '../screens/screens.dart';
 
 class CustomVideoPlayer extends StatefulWidget {
   const CustomVideoPlayer({
-    Key? key,
+    super.key,
     required this.post,
-  }) : super(key: key);
+  });
 
   final Post post;
 
@@ -168,10 +170,10 @@ class _CustomVideoPlayerState extends State<CustomVideoPlayer> {
 
 class _VideoAction extends StatelessWidget {
   const _VideoAction({
-    Key? key,
+    super.key,
     required this.icon,
     required this.value,
-  }) : super(key: key);
+  });
 
   final IconData icon;
   final String value;

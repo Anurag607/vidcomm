@@ -4,8 +4,8 @@ import '../screens/screens.dart';
 
 class CustomBottomAppBar extends StatelessWidget {
   const CustomBottomAppBar({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
